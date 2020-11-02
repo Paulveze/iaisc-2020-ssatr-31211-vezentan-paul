@@ -1,0 +1,19 @@
+
+"places" : {[
+{ 
+"name": "p0",
+"tokens": 1,
+"post": [ "t0" ]
+},
+{ 
+"name": "p1",
+"tokens": 0,
+"post": [ "t1" ]
+},
+{ 
+"name": "p2",
+"tokens": 0,
+"post": [ "t2" ]
+}
+]
+}

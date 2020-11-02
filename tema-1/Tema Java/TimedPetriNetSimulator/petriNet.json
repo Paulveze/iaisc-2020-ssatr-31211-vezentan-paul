@@ -1,0 +1,146 @@
+{
+"startPlace": 0,
+"places" : [
+{ 
+"name": "p0",
+"numberOfTokens": 1,
+"nextTransitions" : [ 0 ]
+},
+{ 
+"name": "p1",
+"numberOfTokens": 0,
+"nextTransitions" : [ 1 ]
+},
+{ 
+"name": "p2",
+"numberOfTokens": 0,
+"nextTransitions" : [ 2 ]
+},
+{ 
+"name": "p3",
+"numberOfTokens": 0,
+"nextTransitions" : [ 3 ]
+},
+{ 
+"name": "p4",
+"numberOfTokens": 1,
+"nextTransitions" : [ 3, 6 ]
+},
+{ 
+"name": "p5",
+"numberOfTokens": 0,
+"nextTransitions" : [ 4 ]
+},
+{ 
+"name": "p6",
+"numberOfTokens": 1,
+"nextTransitions" : [ 4, 5 ]
+},
+{ 
+"name": "p7",
+"numberOfTokens": 0,
+"nextTransitions" : [ 5 ]
+},
+{ 
+"name": "p8",
+"numberOfTokens": 0,
+"nextTransitions" : [ 6 ]
+},
+{ 
+"name": "p9",
+"numberOfTokens": 0,
+"nextTransitions" : [ 7 ]
+},
+{ 
+"name": "p10",
+"numberOfTokens": 0,
+"nextTransitions" : [ 8 ]
+},
+{ 
+"name": "p11",
+"numberOfTokens": 0,
+"nextTransitions" : [ 9 ]
+},
+{ 
+"name": "p12",
+"numberOfTokens": 0,
+"nextTransitions" : [ 9 ]
+},
+{ 
+"name": "p13",
+"numberOfTokens": 0,
+"nextTransitions" : [ 10 ]
+}
+
+],
+"transitions" : [
+{
+"name": "t0",
+"nextPlaces" : [ 1,2 ],
+"tokensFrom": [ 0 ]
+},
+{
+"name": "t1",
+"minTime": 1,
+"nextPlaces" : [ 3 ],
+"tokensFrom": [ 1 ]
+},
+{
+"name": "t2",
+"minTime" : 4,
+"nextPlaces" : [ 5 ],
+"tokensFrom": [ 2 ]
+},
+{
+"name": "t3",
+"minTime": 2,
+"maxTime": 4,
+"nextPlaces" : [ 7 ],
+"tokensFrom": [ 3, 4 ]
+},
+{
+"name": "t4",
+"minTime": 2,
+"maxTime" :5, 
+"nextPlaces" : [ 8 ],
+"tokensFrom": [ 5, 6 ]
+},
+{
+"name": "t5",
+"minTime": 3,
+"maxTime" :4, 
+"nextPlaces" : [ 9 ],
+"tokensFrom": [ 6, 7 ]
+},
+{
+"name": "t6",
+"minTime" : 2,
+"maxTime": 3,
+"nextPlaces" : [ 10 ],
+"tokensFrom": [ 4, 8 ]
+},
+{
+"name": "t7",
+"nextPlaces" : [ 4, 6, 11 ],
+"tokensFrom": [ 9 ]
+},
+{
+"name": "t8",
+"nextPlaces" : [ 4, 6, 12 ],
+"tokensFrom": [ 10 ]
+},
+{
+"name": "t9",
+"nextPlaces" : [ 13 ],
+"tokensFrom": [ 11, 12 ]
+},
+{
+"name": "t10",
+"nextPlaces" : [ ],
+"tokensFrom": [ 13 ]
+}
+
+]
+
+
+}
